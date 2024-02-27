@@ -1,0 +1,11 @@
+C:\Intercambiar\Invest\PotInvet\teste\bin\teste.dll
+C:\Intercambiar\Invest\PotInvet\teste\bin\teste.pdb
+C:\Intercambiar\Invest\PotInvet\teste\bin\BLL.dll
+C:\Intercambiar\Invest\PotInvet\teste\bin\BLL.pdb
+C:\Intercambiar\Invest\PotInvet\teste\obj\Debug\ResolveAssemblyReference.cache
+C:\Intercambiar\Invest\PotInvet\teste\obj\Debug\teste.dll
+C:\Intercambiar\Invest\PotInvet\teste\obj\Debug\teste.pdb
+C:\Intercambiar\Invest\PotInvet\teste\bin\MDL.dll
+C:\Intercambiar\Invest\PotInvet\teste\bin\DAL.dll
+C:\Intercambiar\Invest\PotInvet\teste\bin\MDL.pdb
+C:\Intercambiar\Invest\PotInvet\teste\bin\DAL.pdb

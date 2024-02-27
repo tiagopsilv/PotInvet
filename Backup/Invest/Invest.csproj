@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F80E7653-B884-4FEE-A735-E79A4D2006AA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Invest</RootNamespace>
+    <AssemblyName>Invest</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.60623.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GoogleChartSharp">
+      <HintPath>.\GoogleChartSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AtualizaProjeto.aspx" />
+    <Content Include="Cadastro.aspx" />
+    <Content Include="cadastroAgente.aspx" />
+    <Content Include="cadastroAgenteDoc.aspx" />
+    <Content Include="cadastroCustoAgente.aspx" />
+    <Content Include="cadastroCustoAgenteEdicao.aspx" />
+    <Content Include="CadastroEmpreendedor.aspx" />
+    <Content Include="CadastroIncubadora.aspx" />
+    <Content Include="CadastroInvestidor.aspx" />
+    <Content Include="cadastroLucroAgente.aspx" />
+    <Content Include="cadastroLucroAgenteEdicao.aspx" />
+    <Content Include="CadastroPesquisaAgente.aspx" />
+    <Content Include="Contato.aspx" />
+    <Content Include="ContratoInvestir.aspx" />
+    <Content Include="ControleProjetos.aspx" />
+    <Content Include="DetalheEmpreendedor.aspx" />
+    <Content Include="downloads.aspx" />
+    <Content Include="FormCadCustoAgente.aspx" />
+    <Content Include="FormCadLucroAgente.aspx" />
+    <Content Include="Fotos\Perfil_padrao.jpg" />
+    <Content Include="Imagens\botaoAdicionar.jpg" />
+    <Content Include="Imagens\botaoAgente.jpg" />
+    <Content Include="Imagens\botaoCadastreseja.jpg" />
+    <Content Include="Imagens\botaoInvestidor.jpg" />
+    <Content Include="Imagens\botaoInvestir.jpg" />
+    <Content Include="Imagens\botaoSalvar.jpg" />
+    <Content Include="Imagens\botaoVerificar.jpg" />
+    <Content Include="Imagens\botaoVoltar.jpg" />
+    <Content Include="Imagens\btnPorcentagem0.jpg" />
+    <Content Include="Imagens\btnPorcentagem100.jpg" />
+    <Content Include="Imagens\btnProject_1.jpg" />
+    <Content Include="Imagens\ImgApres_5.png" />
+    <Content Include="Imagens\investidoranjo.jpg" />
+    <Content Include="Imagens\Perfil_padrao.jpg" />
+    <Content Include="login.aspx" />
+    <Content Include="mensagem.aspx" />
+    <Content Include="graficoROI.aspx" />
+    <Content Include="Imagens\btnExcel.jpg" />
+    <Content Include="Imagens\btnExcel_1.jpg" />
+    <Content Include="Imagens\btnPorcentagem.jpg" />
+    <Content Include="Imagens\btnPowerPoint.jpg" />
+    <Content Include="Imagens\btnPowerPoint_1.jpg" />
+    <Content Include="Imagens\btnWord.jpg" />
+    <Content Include="Imagens\btnWord_1.jpg" />
+    <Content Include="Imagens\graficoROI.jpg" />
+    <Content Include="Imagens\graficoROI2.jpg" />
+    <Content Include="CadastroPesquisa.aspx" />
+    <Content Include="naoDisponivel.aspx" />
+    <Content Include="principalAgente.aspx" />
+    <Content Include="investidorDetalhes.aspx" />
+    <Content Include="principalInvestidor.aspx" />
+    <Content Include="home.aspx" />
+    <Content Include="Imagens\botaoAlterarHigh.png" />
+    <Content Include="Imagens\botaoEnviarHigh.png" />
+    <Content Include="Imagens\botaoLimparHigh.png" />
+    <Content Include="Imagens\logo.jpg" />
+    <Content Include="Imagens\more.png" />
+    <Content Include="Imagens\botaoLogoMais.jpg" />
+    <Content Include="Imagens\botaoMais.jpg" />
+    <Content Include="Imagens\botaoMaisHigh.jpg" />
+    <Content Include="Imagens\fundoLaranja.gif" />
+    <Content Include="Imagens\fundoLaranjaHigh.jpg" />
+    <Content Include="Imagens\imagemFundo.jpg" />
+    <Content Include="Imagens\imagemHome.gif" />
+    <Content Include="Imagens\imagemProjeto1.jpg" />
+    <Content Include="Imagens\imagemProjeto2.jpg" />
+    <Content Include="Imagens\imagemProjeto3.jpg" />
+    <Content Include="Imagens\imagemProjetoPrincipal.jpg" />
+    <Content Include="Imagens\logo_old.jpg" />
+    <Content Include="Imagens\star.png" />
+    <Content Include="Imagens\tracoCentral.jpg" />
+    <Content Include="investidor.aspx" />
+    <Content Include="projeto.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\Mascara.js" />
+    <Content Include="sobre.aspx" />
+    <Content Include="Styles\default.css" />
+    <Content Include="VerificaCPFEmpreendedor.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AtualizaProjeto.aspx.cs">
+      <DependentUpon>AtualizaProjeto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AtualizaProjeto.aspx.designer.cs">
+      <DependentUpon>AtualizaProjeto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro.aspx.cs">
+      <DependentUpon>Cadastro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cadastro.aspx.designer.cs">
+      <DependentUpon>Cadastro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cadastroAgente.aspx.cs">
+      <DependentUpon>cadastroAgente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cadastroAgente.aspx.designer.cs">
+      <DependentUpon>cadastroAgente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cadastroAgenteDoc.aspx.cs">
+      <DependentUpon>cadastroAgenteDoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cadastroAgenteDoc.aspx.designer.cs">
+      <DependentUpon>cadastroAgenteDoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cadastroCustoAgente.aspx.cs">
+      <DependentUpon>cadastroCustoAgente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cadastroCustoAgente.aspx.designer.cs">
+      <DependentUpon>cadastroCustoAgente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cadastroCustoAgenteEdicao.aspx.cs">
+      <DependentUpon>cadastroCustoAgenteEdicao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cadastroCustoAgenteEdicao.aspx.designer.cs">
+      <DependentUpon>cadastroCustoAgenteEdicao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroEmpreendedor.aspx.cs">
+      <DependentUpon>CadastroEmpreendedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadastroEmpreendedor.aspx.designer.cs">
+      <DependentUpon>CadastroEmpreendedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroIncubadora.aspx.cs">
+      <DependentUpon>CadastroIncubadora.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadastroIncubadora.aspx.designer.cs">
+      <DependentUpon>CadastroIncubadora.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroInvestidor.aspx.cs">
+      <DependentUpon>CadastroInvestidor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadastroInvestidor.aspx.designer.cs">
+      <DependentUpon>CadastroInvestidor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cadastroLucroAgente.aspx.cs">
+      <DependentUpon>cadastroLucroAgente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cadastroLucroAgente.aspx.designer.cs">
+      <DependentUpon>cadastroLucroAgente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cadastroLucroAgenteEdicao.aspx.cs">
+      <DependentUpon>cadastroLucroAgenteEdicao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cadastroLucroAgenteEdicao.aspx.designer.cs">
+      <DependentUpon>cadastroLucroAgenteEdicao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroPesquisaAgente.aspx.cs">
+      <DependentUpon>CadastroPesquisaAgente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadastroPesquisaAgente.aspx.designer.cs">
+      <DependentUpon>CadastroPesquisaAgente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contato.aspx.cs">
+      <DependentUpon>Contato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contato.aspx.designer.cs">
+      <DependentUpon>Contato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContratoInvestir.aspx.cs">
+      <DependentUpon>ContratoInvestir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContratoInvestir.aspx.designer.cs">
+      <DependentUpon>ContratoInvestir.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControleProjetos.aspx.cs">
+      <DependentUpon>ControleProjetos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControleProjetos.aspx.designer.cs">
+      <DependentUpon>ControleProjetos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\clsAtualizaProjeto.cs" />
+    <Compile Include="Controller\clscadastroAgente.cs" />
+    <Compile Include="Controller\clscadastroAgenteDoc.cs" />
+    <Compile Include="Controller\clscadastroCustoAgente.cs" />
+    <Compile Include="Controller\clscadastroCustoAgenteEdicao.cs" />
+    <Compile Include="Controller\clsCadastroEmpreendedor.cs" />
+    <Compile Include="Controller\clsCadastroIncubadora.cs" />
+    <Compile Include="Controller\clsCadastroInvestidor.cs" />
+    <Compile Include="Controller\clscadastroLucroAgente.cs" />
+    <Compile Include="Controller\clscadastroLucroAgenteEdicao.cs" />
+    <Compile Include="Controller\clsContratoInvestir.cs" />
+    <Compile Include="Controller\clsDetalheEmpreendedor.cs" />
+    <Compile Include="Controller\clsDownloads.cs" />
+    <Compile Include="Controller\clsFormCadCustoAgente.cs" />
+    <Compile Include="Controller\clsFormCadLucroAgente.cs" />
+    <Compile Include="Controller\clsgraficoROI.cs" />
+    <Compile Include="Controller\clsHome.cs" />
+    <Compile Include="Controller\clsinvestidor.cs" />
+    <Compile Include="Controller\clsinvestidorDetalhes.cs" />
+    <Compile Include="Controller\clsLogin.cs" />
+    <Compile Include="Controller\clsmensagem.cs" />
+    <Compile Include="Controller\clsPesquisa.cs" />
+    <Compile Include="Controller\clsprincipalAgente.cs" />
+    <Compile Include="Controller\clsprincipalInvestidor.cs" />
+    <Compile Include="Controller\clsprojeto.cs" />
+    <Compile Include="Controller\clsSobre.cs" />
+    <Compile Include="Controller\clsVerificaCPFEmpreendedor.cs" />
+    <Compile Include="Controller\modLista.cs" />
+    <Compile Include="DetalheEmpreendedor.aspx.cs">
+      <DependentUpon>DetalheEmpreendedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetalheEmpreendedor.aspx.designer.cs">
+      <DependentUpon>DetalheEmpreendedor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="downloads.aspx.cs">
+      <DependentUpon>downloads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="downloads.aspx.designer.cs">
+      <DependentUpon>downloads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadCustoAgente.aspx.cs">
+      <DependentUpon>FormCadCustoAgente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormCadCustoAgente.aspx.designer.cs">
+      <DependentUpon>FormCadCustoAgente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadLucroAgente.aspx.cs">
+      <DependentUpon>FormCadLucroAgente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormCadLucroAgente.aspx.designer.cs">
+      <DependentUpon>FormCadLucroAgente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mensagem.aspx.cs">
+      <DependentUpon>mensagem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mensagem.aspx.designer.cs">
+      <DependentUpon>mensagem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="graficoROI.aspx.cs">
+      <DependentUpon>graficoROI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="graficoROI.aspx.designer.cs">
+      <DependentUpon>graficoROI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ListaCusto.cs" />
+    <Compile Include="Model\ListaEmpreendedor.cs" />
+    <Compile Include="Model\ListaInvestidor.cs" />
+    <Compile Include="Model\ListaLucro.cs" />
+    <Compile Include="Model\ListaProjeto.cs" />
+    <Compile Include="Model\ListaProjetosVisitados.cs" />
+    <Compile Include="CadastroPesquisa.aspx.cs">
+      <DependentUpon>CadastroPesquisa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadastroPesquisa.aspx.designer.cs">
+      <DependentUpon>CadastroPesquisa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ListaROI.cs" />
+    <Compile Include="naoDisponivel.aspx.cs">
+      <DependentUpon>naoDisponivel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="naoDisponivel.aspx.designer.cs">
+      <DependentUpon>naoDisponivel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="principalAgente.aspx.cs">
+      <DependentUpon>principalAgente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="principalAgente.aspx.designer.cs">
+      <DependentUpon>principalAgente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="investidorDetalhes.aspx.cs">
+      <DependentUpon>investidorDetalhes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="investidorDetalhes.aspx.designer.cs">
+      <DependentUpon>investidorDetalhes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="principalInvestidor.aspx.cs">
+      <DependentUpon>principalInvestidor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="principalInvestidor.aspx.designer.cs">
+      <DependentUpon>principalInvestidor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="investidor.aspx.cs">
+      <DependentUpon>investidor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="investidor.aspx.designer.cs">
+      <DependentUpon>investidor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="projeto.aspx.cs">
+      <DependentUpon>projeto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="projeto.aspx.designer.cs">
+      <DependentUpon>projeto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="sobre.aspx.cs">
+      <DependentUpon>sobre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sobre.aspx.designer.cs">
+      <DependentUpon>sobre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VerificaCPFEmpreendedor.aspx.cs">
+      <DependentUpon>VerificaCPFEmpreendedor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerificaCPFEmpreendedor.aspx.designer.cs">
+      <DependentUpon>VerificaCPFEmpreendedor.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{B7466E49-FB5C-400E-BAF9-619960E0EA46}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\POCO\POCO.csproj">
+      <Project>{60B1D391-2022-4C75-92DD-A7E27B200F5C}</Project>
+      <Name>POCO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Doc\Termos e Condições de Uso do Idéias Invest.doc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49296</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

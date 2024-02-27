@@ -1,0 +1,119 @@
+﻿body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: 941px;
+}
+p
+{
+    font-size: 11px;
+    color: #8c847f;
+}
+h2
+{
+    color: #423c38;
+    font-variant: small-caps;
+    text-align: left;
+}
+.header
+{
+    height: 140px;
+    color: #7a7572;
+    font-size: 30px;
+    font-variant: small-caps;
+}
+
+.principal
+{
+}
+
+.link
+{
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    padding-right: 50px;
+    font-variant: small-caps;
+    }
+
+.linkMenu
+{
+    text-decoration: none;
+    float: right;
+    padding-right: 50px;
+    font-variant: small-caps;
+    color: #423c38;
+}
+
+.superior
+{
+    background-color: #423c38;
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+.sair
+{
+    text-decoration: none;
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+.conteudo
+{
+    color: #7a7572;
+    background-color: #ebe7e8;
+}
+
+.conteudo p
+{
+    color: #ffffff; 
+    font-size: 12px;
+}
+
+.conteudo td
+{
+    color: #ffffff; 
+    font-size: 12px;
+}
+
+.pesquisar
+{
+    font-variant: small-caps;
+    color: #423c38;
+    font-family: Arial;
+    font-size: 12px;
+    padding-left: 150px;
+    width: 80%;
+}
+
+.pesquisar p
+{
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.footer
+{
+    height: 40px;
+    background-color: #423c38;
+}
+
+.footer p
+{
+    color: #7a7572;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.botoes
+{
+    background-color: #f67108;
+}
